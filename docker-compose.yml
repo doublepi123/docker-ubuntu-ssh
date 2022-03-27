@@ -1,0 +1,9 @@
+version: '3.1'
+
+services:
+
+  ubuntu:
+    build: .
+    restart: always
+    ports:
+      - 1022:22
